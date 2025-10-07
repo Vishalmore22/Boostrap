@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: #0d1117;
+            color: #fff;
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            background: #0d1117;
+        }
+
+        .navbar a {
+            color: #fff !important;
+        }
+
+        .btn-custom {
+            background: #f7b500;
+            color: #000;
+            font-weight: bold;
+        }
+
+        .container-fluid {
+            background-color: #111827;
+        }
+
+        .bg {
+            background: #020617;
+        }
+
+        .card-bg {
+            background: #020617;
+        }
+
+        .portfolio-title {
+            font-size: 2rem;
+            font-weight: 700;
+        }
+
+        .portfolio-title span {
+            color: #f9c318;
+        }
+
+        .portfolio-text {
+            max-width: 600px;
+            margin: 0 auto;
+            color: #ccc;
+        }
+
+        .portfolio-img {
+            border-radius: 12px;
+            object-fit: cover;
+            height: 100%;
+        }
+
+        .grid-big {
+            height: 100%;
+            width: 100%;
+        }
+
+        .grid-small {
+            height: 99%;
+            width: 80%;
+        }
+
+        .contact-title {
+            font-size: 2rem;
+            font-weight: 700;
+        }
+
+        .contact-title span {
+            color: #f9c318;
+        }
+
+        .contact-text {
+            max-width: 600px;
+            margin: 0 auto;
+            color: #ccc;
+        }
+
+        .contact-info p {
+            margin-bottom: 10px;
+        }
+
+        .contact-info strong {
+            color: #f9c318;
+        }
+
+        .form-control {
+            background-color: #1b1f2f;
+            border: none;
+            color: #fff;
+        }
+
+        .form-control::placeholder {
+            color: #aaa;
+        }
+
+        .btn-custom {
+            background-color: #f9c318;
+            color: #000;
+            font-weight: 600;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            transition: 0.3s;
+        }
+
+        .btn-custom:hover {
+            background-color: #d6a810;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand text-warning fw-bold" href="#">About<span class="text-warning">Me</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon bg-light"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Service</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Resume</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="container-fluid">
+        <div class="container pt-3">
+            <div class="row d-flex justify-content-around">
+                <div class="col-md-4 d-flex flex-column justify-content-center ">
+                    <p class="text-warning">Hello,Welcome</p>
+                    <h1 class="fw-bold">I m Vishal More</h1>
+                    <p class="text-secondary lh-base">I'm a Full-Stack developer passionate about building digital
+                        experiences that are not only
+                        visually appealing but also fast, accessible, and user-focused.
+                    </p>
+                    <div>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-warning" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            Contact-Us
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Contact</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Contact will be send on the email
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 d-flex justify-content-center align-items-center">
+                    <img src="https://cdn3.iconfinder.com/data/icons/avatars-flat/33/man_5-512.png" class="w-10 h-50">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid bg">
+        <div class="container">
+            <div class="row d-flex justify-content-around pb-3 ">
+                <div class="col-md-4 d-flex justify-content-center align-items-center">
+                    <img src="https://cdn3.iconfinder.com/data/icons/avatars-flat/33/man_5-512.png" class="w-10 h-50">
+                </div>
+                <div class="col-md-6 d-flex flex-column justify-content-center ">
+                    <h1 class="fw-bold">About <span class="text-warning">Me</span></h1>
+                    <p class="text-secondary">I have completed my Bachelor of Computer Applications (BCA) and continue
+                        to enhance my knowledge
+                        through practical coding and self-learning. My core skills include HTML, CSS, JavaScript, and
+                        React.js, With a
+                        problem-solving mindset. <br><br> My goal is to deliver high-quality code,
+                        optimize performance, and contribute to innovative projects that make a real impact.</p>
+                    <div>
+                        <a href="#" class="btn btn-custom fs-9 fw-light">Cotact-Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-md-6 mt-5 mb-5 ms-5">
+                    <h1 class="fw-bold">My <span class="text-warning">Service</span></h1>
+                    <p class="text-secondary">As a full-stack developer, I provide end-to-end web development services,
+                        from
+                        creating clean and
+                        responsive front-end designs to building powerful and scalable back-end systems.</p>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-around ">
+                <div class=" col-lg-3 col-md-6 col-sm-9 card card-bg text-center mb-5">
+                    <div class="card-body">
+                        <img src="image/Vector.png" class="mb-4" alt="">
+                        <h5 class="card-title fw-bold text-white lh-base mb-4">Digital <br> Marketing</h5>
+                        <p class="card-text text-secondary lh-base">Some quick example text to build on the card title
+                            and make
+                            up the bulk of
+                            the
+                            card’s content.</p>
+                    </div>
+                </div>
+                <div class=" col-lg-3 col-md-6 col-sm-9 card card-bg text-center mb-5">
+                    <div class="card-body">
+                        <img src="image/Frame.png" class="mb-4" alt="">
+                        <h5 class="card-title fw-bold text-white lh-base mb-4">Web<br> Devlopment</h5>
+                        <p class="card-text text-secondary lh-base">Some quick example text to build on the card title
+                            and make
+                            up the bulk of
+                            the
+                            card’s content.</p>
+                    </div>
+                </div>
+                <div class=" col-lg-3 col-md-6 col-sm-9 card card-bg text-center mb-5">
+                    <div class="card-body">
+                        <img src="image/p2.png" class="mb-4" alt="">
+                        <h5 class="card-title fw-bold text-white lh-base mb-4">Creative <br> Graphic Design</h5>
+                        <p class="card-text text-secondary lh-base">Some quick example text to build on the card title
+                            and make
+                            up the bulk of
+                            the
+                            card’s content.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="container text-center py-5">
+        <h2 class="portfolio-title">My <span>Portfolio</span></h2>
+        <p class="portfolio-text mt-3">
+            There are many variations of passages of Lorem Ipsum available,
+            but the majority have suffered alteration in some form, by injected humour,
+        </p>
+        <div class="row mt-5 d-flex justify-content-center">
+            <div class="col-md-4 mb-3">
+                <img src="image/Rectangle 1024.png" class="portfolio-img grid-big image-fluid" alt="portfolio">
+            </div>
+            <div class="col-md-5">
+                <div class="row g-3">
+                    <div class="col-6">
+                        <img src="image/Rectangle 1025.png" class="portfolio-img grid-small" alt="portfolio">
+                    </div>
+                    <div class="col-6">
+                        <img src="image/Rectangle 1026.png" class="portfolio-img grid-small" alt="portfolio">
+                    </div>
+                    <div class="col-6">
+                        <img src="image/Rectangle 1027.png" class="portfolio-img grid-small" alt="portfolio">
+                    </div>
+                    <div class="col-6">
+                        <img src="image/Rectangle 1028.png" class="portfolio-img grid-small" alt="portfolio">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 mt-5 mb-5 ms-5">
+                    <h1 class="fw-bold">My <span class="text-warning">Experiences</span></h1>
+                    <p class="text-secondary">I have gained valuable experience as a full stack developer, working on
+                        both the frontend and backend of web applications.</p>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-around ">
+                <div class=" col-lg-3 col-md-6 col-sm-9 card card-bg text-center mb-5">
+                    <div class="card-body">
+                        <p class="text-white">2023 - Present</p>
+                        <h5 class="card-title text-warning fw-bold">Full Stack Developer</h5><br>
+                        <p class="card-text lh-base text-secondary">
+                            Building responsive web applications using HTML, CSS, JavaScript, React.js, and backend
+                            integration.
+                        </p>
+                    </div>
+                </div>
+                <div class=" col-lg-3 col-md-6 col-sm-9 card card-bg text-center mb-5">
+                    <div class="card-body">
+                        <p class="text-white">2022 - 2023</p>
+                        <h5 class="card-title text-warning fw-bold">Frontend Developer Intern</h5><br>
+                        <p class="card-text lh-base text-secondary">
+                            Designed UI components, worked with Bootstrap and React, and optimized websites for
+                            performance.
+                        </p>
+                    </div>
+                </div>
+                <div class=" col-lg-3 col-md-6 col-sm-9 card card-bg text-center mb-5">
+                    <div class="card-body">
+                        <p class="text-white">2021 - 2022</p>
+                        <h5 class="card-title text-warning fw-bold">Freelancer</h5><br>
+                        <p class="card-text lh-base text-secondary">
+                            Created personal websites, landing pages, and small business sites with modern and clean
+                            designs.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="container py-5">
+        <div class="text-center">
+            <h2 class="contact-title">Contact <span>Me</span></h2>
+            <p class="contact-text mt-3">
+                There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                alteration in some form, by injected humour,
+            </p>
+        </div>
+        <div class="row mt-5 g-4 d-flex justify-content-center">
+            <div class="col-md-3 contact-info">
+                <p><strong>Address _</strong> 23 S 80 Road, Benedict, NE, 68316 <br> United States</p>
+                <p><strong>Phone _</strong> +01 123 456 789</p>
+                <p><strong>Email _</strong> abc.xyz@gmail.com</p>
+                <p><strong>Website _</strong> www.abc.xyz.com</p>
+            </div>
+            <div class="col-md-3">
+                <form>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Name">
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control" rows="5" placeholder="Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-custom">Contact us</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
