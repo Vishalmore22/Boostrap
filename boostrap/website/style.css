@@ -1,0 +1,49 @@
+.logo {
+    width: 25px;
+    height: 25px;
+}
+
+.color {
+    background: #ffefd9;
+}
+
+.border {
+    border-radius: 30px;
+}
+
+
+.bg {
+    background: #ffefd9;
+}
+
+/* section-1 */
+
+.btn {
+    background: #e58608;
+    color: aliceblue;
+    border-radius: 20px;
+}
+
+/* scetion-3 */
+.font {
+    font-size: 20px;
+}
+
+.size {
+    width: 100px;
+    height: 100px;
+}
+
+/* scetion-4 */
+.card-bg {
+    background: #f5f8f8;
+}
+
+/* section-6 */
+.footer {
+    background: #f6faff;
+}
+
+.line {
+    line-height: 15px;
+}
